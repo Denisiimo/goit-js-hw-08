@@ -28,7 +28,7 @@ function onInput(evt) {
 function onFormSubmit(evt) {
     evt.preventDefault();
     if (formData.email === "" || formData.message === "") {
-        alert("Missing infromation");
+        alert("Missing input infromation");
         return;
     };
     
